@@ -262,7 +262,7 @@ section {
 
 .section-title h2 {
   text-align: center;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -270,26 +270,7 @@ section {
   position: relative;
   color: #6c6f74;
 }
-.section-title h2::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 200px;
-  height: 3px;
-  background: rgb(233, 233, 233);
-  bottom: 1px;
-  left: calc(50% - 100px);
-}
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 80px;
-  height: 4px;
-  background: #4e0b38;
-  bottom: 0;
-  left: calc(50% - 40px);
-} 
+
 .section-title p {
   margin-bottom: 0;
 }
@@ -354,6 +335,10 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #4e0b38;
+}
+
+.accordion-header{
+  background-color: red;
 }
 
 
